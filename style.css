@@ -155,13 +155,13 @@ footer {
 
 .project-image img {
   width: 100%;
-  max-width: 720px; 
-  max-height: 360px;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;   /* controls height naturally */
+  object-fit: cover;
   border-radius: 8px;
   display: block;
-  margin: 0 auto;
+  margin: 16px auto;
 }
-
 
 .project-image img:hover {
   transform: scale(1.02);
