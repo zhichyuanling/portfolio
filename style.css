@@ -144,8 +144,13 @@ footer {
 }
 
 .project-image {
-  margin: 20px 0;
-  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 16px 0;
+  display: block;
+  object-fit: cover;
 }
 
 .project-image img {
@@ -156,6 +161,7 @@ footer {
   display: block;
   margin: 0 auto;
 }
+
 
 .project-image img:hover {
   transform: scale(1.02);
