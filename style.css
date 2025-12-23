@@ -153,6 +153,13 @@ footer {
   object-fit: cover;
 }
 
+/* Desktop control */
+@media (min-width: 1024px) {
+  .project-image {
+    max-height: 360px;
+  }
+}
+
 .project-image img {
   width: 100%;
   max-width: 720px;   /* 👈 limits size on PC */
